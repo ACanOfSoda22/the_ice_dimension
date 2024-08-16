@@ -1,0 +1,743 @@
+{
+  "mod_elements": [
+    {
+      "name": "NavyIce",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "navy_ice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/block/NavyIceBlock.java",
+          "src/main/resources/data/fantasmod/loot_tables/blocks/navy_ice.json",
+          "src/main/resources/assets/fantasmod/models/block/navy_ice.json",
+          "src/main/resources/assets/fantasmod/blockstates/navy_ice.json",
+          "src/main/resources/assets/fantasmod/models/item/navy_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "IceSheet",
+      "type": "biome",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_sheet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/worldgen/biome/ice_sheet.json"
+        ]
+      }
+    },
+    {
+      "name": "Wanderer",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/entity/WandererEntity.java",
+          "src/main/resources/data/fantasmod/neoforge/biome_modifier/wanderer_biome_modifier.json",
+          "src/main/resources/assets/fantasmod/models/item/wanderer_spawn_egg.json",
+          "src/main/java/net/mcreator/fantasmod/client/renderer/WandererRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "IceForest",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/worldgen/configured_feature/ice_forest_tree.json",
+          "src/main/resources/data/fantasmod/worldgen/biome/ice_forest.json",
+          "src/main/resources/data/fantasmod/worldgen/placed_feature/ice_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Ice",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/block/IcePortalBlock.java",
+          "src/main/resources/assets/fantasmod/blockstates/ice_portal.json",
+          "src/main/java/net/mcreator/fantasmod/world/dimension/IceDimension.java",
+          "src/main/resources/data/fantasmod/dimension_type/ice.json",
+          "src/main/resources/assets/fantasmod/models/block/ice_portal_ew.json",
+          "src/main/java/net/mcreator/fantasmod/world/teleporter/IceTeleporter.java",
+          "src/main/resources/data/fantasmod/dimension/ice.json",
+          "src/main/resources/assets/fantasmod/models/block/ice_portal_ns.json",
+          "src/main/java/net/mcreator/fantasmod/item/IceItem.java",
+          "src/main/resources/assets/fantasmod/models/item/ice.json",
+          "src/main/java/net/mcreator/fantasmod/world/teleporter/IcePortalShape.java"
+        ]
+      }
+    },
+    {
+      "name": "TormentedSoul",
+      "type": "livingentity",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tormented_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/neoforge/biome_modifier/tormented_soul_biome_modifier.json",
+          "src/main/resources/assets/fantasmod/models/item/tormented_soul_spawn_egg.json",
+          "src/main/java/net/mcreator/fantasmod/client/renderer/TormentedSoulRenderer.java",
+          "src/main/java/net/mcreator/fantasmod/entity/TormentedSoulEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "UncommonBrickArmor",
+      "type": "armor",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_ice_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/item/UncommonBrickArmorItem.java",
+          "src/main/resources/assets/fantasmod/models/item/green_ice_armor_chestplate.json",
+          "src/main/resources/assets/fantasmod/models/item/green_ice_armor_leggings.json",
+          "src/main/resources/assets/fantasmod/models/item/green_ice_armor_boots.json",
+          "src/main/resources/assets/fantasmod/models/item/green_ice_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RedNavyIce",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_navy_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/worldgen/placed_feature/red_navy_ice.json",
+          "src/main/resources/data/fantasmod/loot_tables/blocks/red_navy_ice.json",
+          "src/main/resources/assets/fantasmod/models/block/red_navy_ice.json",
+          "src/main/resources/assets/fantasmod/blockstates/red_navy_ice.json",
+          "src/main/java/net/mcreator/fantasmod/block/RedNavyIceBlock.java",
+          "src/main/resources/data/fantasmod/neoforge/biome_modifier/red_navy_ice_biome_modifier.json",
+          "src/main/resources/data/fantasmod/worldgen/configured_feature/red_navy_ice.json",
+          "src/main/resources/assets/fantasmod/models/item/red_navy_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeNavyIce",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_navy_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/loot_tables/blocks/orange_navy_ice.json",
+          "src/main/resources/data/fantasmod/neoforge/biome_modifier/orange_navy_ice_biome_modifier.json",
+          "src/main/resources/data/fantasmod/worldgen/configured_feature/orange_navy_ice.json",
+          "src/main/resources/assets/fantasmod/models/block/orange_navy_ice.json",
+          "src/main/resources/assets/fantasmod/blockstates/orange_navy_ice.json",
+          "src/main/resources/data/fantasmod/worldgen/placed_feature/orange_navy_ice.json",
+          "src/main/resources/assets/fantasmod/models/item/orange_navy_ice.json",
+          "src/main/java/net/mcreator/fantasmod/block/OrangeNavyIceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RawGreenIceOre",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_green_ice_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/item/RawGreenIceOreItem.java",
+          "src/main/resources/assets/fantasmod/models/item/raw_green_ice_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenIceOre",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_ice_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/blockstates/green_ice_ore.json",
+          "src/main/resources/data/fantasmod/worldgen/configured_feature/green_ice_ore.json",
+          "src/main/resources/data/fantasmod/worldgen/placed_feature/green_ice_ore.json",
+          "src/main/resources/data/fantasmod/loot_tables/blocks/green_ice_ore.json",
+          "src/main/java/net/mcreator/fantasmod/block/GreenIceOreBlock.java",
+          "src/main/resources/data/fantasmod/neoforge/biome_modifier/green_ice_ore_biome_modifier.json",
+          "src/main/resources/assets/fantasmod/models/item/green_ice_ore.json",
+          "src/main/resources/assets/fantasmod/models/block/green_ice_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenIceIngot",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_ice_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/item/GreenIceIngotItem.java",
+          "src/main/resources/assets/fantasmod/models/item/green_ice_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "RawGreenIceSmelting",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_green_ice_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/raw_green_ice_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Krystalalaniteblock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalalaniteblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/models/block/krystalalaniteblock.json",
+          "src/main/resources/assets/fantasmod/models/item/krystalalaniteblock.json",
+          "src/main/resources/data/fantasmod/worldgen/configured_feature/krystalalaniteblock.json",
+          "src/main/resources/data/fantasmod/worldgen/placed_feature/krystalalaniteblock.json",
+          "src/main/java/net/mcreator/fantasmod/block/KrystalalaniteblockBlock.java",
+          "src/main/resources/data/fantasmod/neoforge/biome_modifier/krystalalaniteblock_biome_modifier.json",
+          "src/main/resources/assets/fantasmod/blockstates/krystalalaniteblock.json",
+          "src/main/resources/data/fantasmod/loot_tables/blocks/krystalalaniteblock.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalalaniteOre",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalalanite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/worldgen/configured_feature/krystalalanite_ore.json",
+          "src/main/resources/data/fantasmod/worldgen/placed_feature/krystalalanite_ore.json",
+          "src/main/java/net/mcreator/fantasmod/block/KrystalalaniteOreBlock.java",
+          "src/main/resources/assets/fantasmod/blockstates/krystalalanite_ore.json",
+          "src/main/resources/data/fantasmod/neoforge/biome_modifier/krystalalanite_ore_biome_modifier.json",
+          "src/main/resources/assets/fantasmod/models/item/krystalalanite_ore.json",
+          "src/main/resources/assets/fantasmod/models/block/krystalalanite_ore.json",
+          "src/main/resources/data/fantasmod/loot_tables/blocks/krystalalanite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "JaggedCrystalPeaks",
+      "type": "biome",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_mountains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/worldgen/biome/krystalanite_mountains.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeIceBricks",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_ice_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/blockstates/orange_ice_bricks.json",
+          "src/main/resources/assets/fantasmod/models/item/orange_ice_bricks.json",
+          "src/main/resources/data/fantasmod/loot_tables/blocks/orange_ice_bricks.json",
+          "src/main/java/net/mcreator/fantasmod/block/OrangeIceBricksBlock.java",
+          "src/main/resources/assets/fantasmod/models/block/orange_ice_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeIceBricksFromOrangeIce",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_ice_bricks_from_orange_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/orange_ice_bricks_from_orange_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "IcePineForest",
+      "type": "biome",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_pine_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/worldgen/biome/ice_pine_forest.json",
+          "src/main/resources/data/fantasmod/worldgen/configured_feature/ice_pine_forest_tree.json",
+          "src/main/resources/data/fantasmod/worldgen/placed_feature/ice_pine_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkKrystalalaniteRock",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_krystalalanite_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/loot_tables/blocks/pink_krystalalanite_rock.json",
+          "src/main/resources/assets/fantasmod/models/block/pink_krystalalanite_rock.json",
+          "src/main/resources/assets/fantasmod/models/item/pink_krystalalanite_rock.json",
+          "src/main/resources/assets/fantasmod/blockstates/pink_krystalalanite_rock.json",
+          "src/main/java/net/mcreator/fantasmod/block/PinkKrystalalaniteRockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedKrystalalaniteBlock",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_krystalalanite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/polished_krystalalanite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteBlock",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/block/KrystalaniteBlockBlock.java",
+          "src/main/resources/data/fantasmod/loot_tables/blocks/krystalanite_block.json",
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_block.json",
+          "src/main/resources/assets/fantasmod/models/block/krystalanite_block.json",
+          "src/main/resources/assets/fantasmod/blockstates/krystalanite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RawKrystalanite",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_krystalanite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/models/item/raw_krystalanite.json",
+          "src/main/java/net/mcreator/fantasmod/item/RawKrystalaniteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HardenedKrystalanite",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_krystalanite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/models/item/hardened_krystalanite.json",
+          "src/main/java/net/mcreator/fantasmod/item/HardenedKrystalaniteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteArmor",
+      "type": "armor",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_armor_leggings.json",
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_armor_chestplate.json",
+          "src/main/java/net/mcreator/fantasmod/item/KrystalaniteArmorItem.java",
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_armor_boots.json",
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedKrystalaniteSmelting",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_krystalanite_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/hardened_krystalanite_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalanitePickaxe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/item/KrystalanitePickaxeItem.java",
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteAxe",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_axe.json",
+          "src/main/java/net/mcreator/fantasmod/item/KrystalaniteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteSword",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fantasmod/item/KrystalaniteSwordItem.java",
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteShovel",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_shovel.json",
+          "src/main/java/net/mcreator/fantasmod/item/KrystalaniteShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteHoe",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fantasmod/models/item/krystalanite_hoe.json",
+          "src/main/java/net/mcreator/fantasmod/item/KrystalaniteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KrystalanitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteAxeRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteSwordRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteShovelRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KrystalaniteHoeRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krystalanite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/krystalanite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedKrystalaniteBlock",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_krystalanite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fantasmod/recipes/hardened_krystalanite_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:IceSheet"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:KrystalaniteBlock",
+      "~CUSTOM:KrystalalaniteOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:KrystalaniteBlock",
+      "~CUSTOM:PinkKrystalalaniteRock",
+      "~CUSTOM:KrystalalaniteOre",
+      "~CUSTOM:Krystalalaniteblock",
+      "~CUSTOM:GreenIceOre",
+      "~CUSTOM:OrangeNavyIce",
+      "~CUSTOM:RedNavyIce",
+      "~CUSTOM:NavyIce"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:IceForest"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PinkKrystalalaniteRock",
+      "~CUSTOM:Krystalalaniteblock",
+      "~CUSTOM:GreenIceOre",
+      "~CUSTOM:RedNavyIce"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:IceSheet"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:IceSheet"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_cold": [
+      "~CUSTOM:IceSheet"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:IceSheet"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:NavyIce",
+      "~Blocks.STONE#0",
+      "~Blocks.SNOW",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.fantasmod.krystalalanite_ore": "Krystalanite Ore",
+      "item.brick_meme_mod.common_brick_pickaxe": "Common Brick Pickaxe",
+      "item.fantasmod.krystalanite_armor_boots": "Krystalanite Boots",
+      "item.fantasmod.green_ice_ingot": "Green Ice Ingot",
+      "item.fantasmod.krystalanite_armor_chestplate": "Krystalanite Chestplate",
+      "block.fantasmod.orange_navy_ice": "Orange Navy Ice",
+      "item.brick_meme_mod.uncommon_brick_pickaxe": "Uncommon Brick Pickaxe",
+      "block.fantasmod.krystalanite_block": "Krystalanite Block",
+      "item.brick_meme_mod.common_brick": "Common Brick",
+      "item.fantasmod.krystalanite_armor_helmet": "Krystalanite Helmet",
+      "item.fantasmod.raw_green_ice_ore": "Raw Green Ice Ore",
+      "item.fantasmod.green_ice_armor_leggings": "Green Ice Leggings",
+      "item.fantasmod.krystalanite_armor_leggings": "Krystalanite Leggings",
+      "item.fantasmod.wanderer_spawn_egg": "Wanderer Spawn Egg",
+      "block.fantasmod.red_navy_ice": "Red Navy Ice",
+      "block.fantasmod.pink_krystalalanite_rock": "Polished Krystalanite Block",
+      "item.fantasmod.raw_krystalanite": "Raw Krystalanite",
+      "item.fantasmod.green_ice_armor_boots": "Green Ice Boots",
+      "biome.fantasmod.krystalanite_mountains": "Krystalanite Mountains",
+      "item.fantasmod.green_ice_armor_chestplate": "Green Ice Chestplate",
+      "item.fantasmod.krystalanite_pickaxe": "Krystalanite Pickaxe",
+      "biome.fantasmod.ice_sheet": "Ice Sheet",
+      "block.fantasmod.krystalalaniteblock": "Krystalanite Rock",
+      "item.fantasmod.hardened_krystalanite": "Hardened Krystalanite",
+      "item.fantasmod.krystalanite_shovel": "Krystalanite Shovel",
+      "item.fantasmod.krystalanite_hoe": "Krystalanite Hoe",
+      "item.brick_meme_mod.common_brick_fragment": "Common Brick Fragment",
+      "item.brick_meme_mod.uncommon_brick_fragment": "Uncommon Brick Fragment",
+      "biome.brick_meme_mod.ice_sheet": "Ice Sheet",
+      "block.fantasmod.green_ice_ore": "Green Ice Ore",
+      "entity.fantasmod.wanderer": "Wanderer",
+      "item.brick_meme_mod.uncommon_brick": "Uncommon Brick",
+      "item.fantasmod.green_ice_armor_helmet": "Green Ice Helmet",
+      "item.fantasmod.tormented_soul_spawn_egg": "Tormented Soul Spawn Egg",
+      "biome.fantasmod.ice_forest": "Ice Forest",
+      "item.fantasmod.krystalanite_sword": "Krystalanite Sword",
+      "block.brick_meme_mod.navy_ice": "Navy Ice",
+      "biome.fantasmod.ice_pine_forest": "Ice Pine Forest",
+      "item.fantasmod.krystalanite_axe": "Krystalanite Axe",
+      "block.brick_meme_mod.fragmented_brick_ore": "Fragmented Brick Ore",
+      "entity.fantasmod.tormented_soul": "Tormented Soul",
+      "block.fantasmod.navy_ice": "Navy Ice",
+      "block.fantasmod.orange_ice_bricks": "Orange Ice Bricks",
+      "item.fantasmod.ice": "Ice Portal Igniter"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fantasmod",
+    "modName": "fanta\u0027s mod",
+    "version": "1.10",
+    "author": "fanta88",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fantasmod"
+  },
+  "mcreatorVersion": 202400118518
+}
